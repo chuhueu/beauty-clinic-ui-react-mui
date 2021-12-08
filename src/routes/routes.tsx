@@ -1,9 +1,4 @@
-import Home1 from "../pages/Home1";
-import Home2 from "../pages/Home2";
-import About from "../pages/About";
-import Service from "../pages/Service";
-import Gallery from "../pages/Gallery";
-import Blog from "../pages/Blog";
+import { Home1, Home2, About, Blog, Gallery, Service } from "../pages/index";
 export const routes = [
   {
     path: "/",
