@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import {
+    AboutUs,
+    CoreServices,
+    MainSlider,
+    ProfessionalTeams,
+} from "../components";
+import ContactUs from "../components/home1/ContactUs";
 
 const Home1 = () => {
     return (
-        <div>
+        <>
+            <MainSlider />
+            <CoreServices />
+            <AboutUs />
+            <ProfessionalTeams />
+            <ContactUs />
+        </>
+    );
+};
 
-        </div>
-    )
-}
-
-export default Home1
+export default Home1;
