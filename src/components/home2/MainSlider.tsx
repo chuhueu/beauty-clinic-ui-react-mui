@@ -55,10 +55,10 @@ const useStyles = makeStyles((theme: Theme) =>
       fontStyle: "normal",
     },
     styleGridRight: {
-        //padding: "100px 100px",
-        [theme.breakpoints.down("sm")]:{
-            padding: "auto"
-        },
+      padding: "100px",
+      [theme.breakpoints.down("sm")]:{
+        padding: "20px"
+      },
       "& p": {
         fontFamily: "Poppins",
         fontStyle: "normal",
@@ -98,8 +98,8 @@ const MainSlider = () => {
               More Details
             </Button>
           </Grid>
-          <Grid item md={6} style={{padding: "100px" }} className={classes.styleGridRight}>
-            <Box display="flex">
+          <Grid item md={6}>
+            <Box display="flex" className={classes.styleGridRight}>
               <Button>
                 <Box component="span" display="flex" className={classes.circle}>
                   <img src={playButton} alt="" />
