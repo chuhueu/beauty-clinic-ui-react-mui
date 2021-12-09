@@ -4,8 +4,8 @@ import {
     CoreServices,
     MainSlider,
     ProfessionalTeams,
-} from "../components";
-import ContactUs from "../components/home1/ContactUs";
+    ContactUs
+} from "../components/index";
 
 const Home1 = () => {
     return (
