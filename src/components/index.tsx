@@ -9,4 +9,7 @@ export { default as SectionAbout } from "./about/SectionAbout";
 export { default as SectionSlogan } from "./about/SectionSlogan";
 export { default as SectionVision } from "./about/SectionVision";
 export { default as SectionClients } from "./about/SectionClients";
+export { default as OurGallery } from "./gallery/OurGallery";
+export { default as VideoTour } from "./gallery/VideoTour";
+export { default as Getquota } from "./gallery/GetQuota";
 export { default as ScrollToTop } from "./common/ScrollToTop";
