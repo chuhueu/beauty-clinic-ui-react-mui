@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Getquota, OurGallery, VideoTour } from "../components";
 
 const Gallery = () => {
     return (
-        <div>
+        <>
+            <OurGallery />
+            <VideoTour />
+            <Getquota />
+        </>
+    );
+};
 
-        </div>
-    )
-}
-
-export default Gallery
+export default Gallery;

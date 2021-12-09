@@ -1,0 +1,30 @@
+.getquota {
+    margin: 100px 0;
+    &-left {
+        .heading {
+            font-size: 1.6rem;
+            line-height: 2rem;
+            font-weight: 600;
+            color: $primary-color;
+            margin-bottom: 12px;
+        }
+        .title {
+            font-size: 3.6rem;
+            line-height: 4.5rem;
+            font-weight: 600;
+            color: $heading-color;
+            margin-bottom: 12px;
+        }
+        .desc {
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            font-weight: 400;
+        }
+    }
+    &-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}
