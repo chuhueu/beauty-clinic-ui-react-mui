@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import {
+    ProfessionalTeams,
+    SectionAbout,
+    SectionClients,
+    SectionSlogan,
+    SectionVision,
+} from "../components";
 
 const About = () => {
     return (
-        <div>
+        <>
+            <SectionAbout />
+            <ProfessionalTeams />
+            <SectionSlogan />
+            <SectionVision />
+            <SectionClients />
+        </>
+    );
+};
 
-        </div>
-    )
-}
-
-export default About
+export default About;

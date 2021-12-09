@@ -1,0 +1,36 @@
+.sectionclients {
+    margin: 50px 0;
+    &-text {
+        text-align: center;
+        .heading {
+            font-size: 1.6rem;
+            line-height: 2rem;
+            font-weight: 600;
+            color: $primary-color;
+            margin-bottom: 12px;
+        }
+        .title {
+            font-size: 3.6rem;
+            line-height: 4.5rem;
+            font-weight: 600;
+            color: $heading-color;
+            margin-bottom: 12px;
+        }
+        .desc {
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            font-weight: 400;
+        }
+    }
+    &-list {
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .sectionclients-item {
+            cursor: pointer;
+            min-width: 147px;
+        }
+    }
+}

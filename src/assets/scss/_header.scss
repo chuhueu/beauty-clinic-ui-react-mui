@@ -88,6 +88,7 @@
             .header-toggle {
                 display: block;
                 height: 100%;
+                cursor: pointer;
                 .bar {
                     width: 40px;
                     height: 5px;
@@ -96,7 +97,6 @@
                     background: $heading-color;
                     display: block;
                     border-radius: 3px;
-                    cursor: pointer;
                 }
             }
             #mobile-menu {
