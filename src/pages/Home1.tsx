@@ -1,20 +1,20 @@
 import React from "react";
 import {
-    AboutUs,
-    CoreServices,
-    MainSlider,
-    ProfessionalTeams,
-} from "../components";
-import ContactUs from "../components/home1/ContactUs";
+    AboutUs1,
+    CoreServices1,
+    MainSlider1,
+    ProfessionalTeams1,
+    ContactUs1
+} from "../components/index";
 
 const Home1 = () => {
     return (
         <>
-            <MainSlider />
-            <CoreServices />
-            <AboutUs />
-            <ProfessionalTeams />
-            <ContactUs />
+            <MainSlider1 />
+            <CoreServices1 />
+            <AboutUs1 />
+            <ProfessionalTeams1 />
+            <ContactUs1 />
         </>
     );
 };

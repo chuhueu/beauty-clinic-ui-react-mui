@@ -1,11 +1,24 @@
-import React from 'react'
+import React from "react";
+import {
+    AboutUs2,
+    CoreServices2,
+    MainSlider2,
+    ChoosingUs,
+    TheBlog,
+    ContactUs2
+} from "../components/index";
 
 const Home2 = () => {
     return (
-        <div>
+        <>
+            <MainSlider2 />
+            <AboutUs2 />
+            <CoreServices2 />
+            <ChoosingUs />
+            <TheBlog />
+            <ContactUs2 />
+        </>
+    );
+};
 
-        </div>
-    )
-}
-
-export default Home2
+export default Home2;
