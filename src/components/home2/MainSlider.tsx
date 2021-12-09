@@ -22,6 +22,9 @@ const useStyles = makeStyles((theme: Theme) =>
         paddingTop: "150px",
       },
     },
+    styleGrid: {
+      marginTop: "80px"
+    },
     styleTitle: {
       fontFamily: "Poppins",
       fontStyle: "normal",
@@ -52,7 +55,7 @@ const useStyles = makeStyles((theme: Theme) =>
       fontStyle: "normal",
     },
     styleGridRight: {
-        padding: "100px 100px",
+        //padding: "100px 100px",
         [theme.breakpoints.down("sm")]:{
             padding: "auto"
         },
@@ -81,7 +84,7 @@ const MainSlider = () => {
   return (
     <Box className={classes.styleMain}>
       <Container className={classes.styleContainer}>
-        <Grid container spacing={7}>
+        <Grid container spacing={7} className={classes.styleGrid}>
           <Grid item md={6}>
             <Typography className={classes.styleTitle}>
               Your beauty center place
@@ -95,7 +98,7 @@ const MainSlider = () => {
               More Details
             </Button>
           </Grid>
-          <Grid item md={6} className={classes.styleGridRight}>
+          <Grid item md={6} style={{padding: "100px" }} className={classes.styleGridRight}>
             <Box display="flex">
               <Button>
                 <Box component="span" display="flex" className={classes.circle}>
