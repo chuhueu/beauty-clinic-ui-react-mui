@@ -5,7 +5,7 @@ import {
     MainSlider,
     ProfessionalTeams,
     ContactUs
-} from "../components";
+} from "../components/index";
 
 const Home1 = () => {
     return (
