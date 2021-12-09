@@ -5,4 +5,8 @@ export { default as ContactAnimations } from "./home1/ContactUs";
 export { default as CoreServices } from "./home1/CoreServices";
 export { default as MainSlider } from "./home1/MainSlider";
 export { default as ProfessionalTeams } from "./home1/ProfessionalTeams";
+export { default as SectionAbout } from "./about/SectionAbout";
+export { default as SectionSlogan } from "./about/SectionSlogan";
+export { default as SectionVision } from "./about/SectionVision";
+export { default as SectionClients } from "./about/SectionClients";
 export { default as ScrollToTop } from "./common/ScrollToTop";
