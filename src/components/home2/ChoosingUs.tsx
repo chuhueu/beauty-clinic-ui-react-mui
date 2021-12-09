@@ -1,6 +1,6 @@
 import React from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import { Box, Button, Grid, Typography, Container } from "@material-ui/core";
+import { Box, Grid, Typography, Container } from "@material-ui/core";
 import background from "../../assets/images/background/background-h2.png";
 import handShake from "../../assets/images/icons/handShake.png";
 import customerLove from "../../assets/images/icons/customerLove.png";
@@ -19,18 +19,18 @@ const useStyles = makeStyles((theme: Theme) =>
       }
     },
     styleBox: {
-      height: "700px",
-      [theme.breakpoints.down("sm")]:{
-          height: "auto",
-          background: "#5C618F"
+      backgroundImage: `url(${background})`,
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      minHeight: "700px",
+      [theme.breakpoints.down("sm")]: {
+        minHeight: "900px"
       }
     },
     styleContainer: {
         padding: "290px 100px",
         margin: "0px auto",
-        [theme.breakpoints.down("sm")]: {
-          padding: "50px",
-        },
       },
       styleWave: {
         position: "absolute",
@@ -43,7 +43,7 @@ const ChoosingUs = () => {
   const classes = useStyles();
   return (
     <Box mt={16} className={classes.styleBox}>
-      <img src={background} alt="" className={classes.styleImg} />
+      {/* <img src={background} alt="" className={classes.styleImg} /> */}
       <Container className={classes.styleContainer}>
         <Grid container justifyContent="center" alignItems="center" spacing={5}>
           <Grid item sm={12} md={6}>

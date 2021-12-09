@@ -5,23 +5,14 @@ import sliderBackground2 from "../../assets/images/background/slider-background2
 import playButton from "../../assets/images/icons/playButton.png";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
-    styleImg: {
-      position: "absolute",
-      zIndex: -3,
-      top: "0",
-      left: "0",
-      width: "100%",
-      [theme.breakpoints.down("sm")]: {
-        display: "none"
-      },
-    },
     styleMain: {
-      height: "918px",
-      [theme.breakpoints.down("sm")]: {
-        height: "auto",
-        background: "#5C618F",
-        marginTop: "-100px"
-      },
+      backgroundImage: `url(${sliderBackground2})`,
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      zIndex: -2,
+      position: "relative",
+      minHeight: "918px",
+      marginTop: "-100px"
     },
     styleContainer: {
       padding: "219px 15px",
@@ -89,7 +80,6 @@ const MainSlider = () => {
   const classes = useStyles();
   return (
     <Box className={classes.styleMain}>
-      <img src={sliderBackground2} alt="" className={classes.styleImg} />
       <Container className={classes.styleContainer}>
         <Grid container spacing={7}>
           <Grid item md={6}>
