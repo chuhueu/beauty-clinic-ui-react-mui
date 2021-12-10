@@ -1,4 +1,4 @@
-import { Home1, Home2, About, Blog, Gallery, Service } from "../pages/index";
+import { Home1, Home2, About, Blog, Gallery, Service, Contact } from "../pages/index";
 export const routes = [
   {
     path: "/",
@@ -24,5 +24,9 @@ export const routes = [
   {
     path: "/blog",
     component: Blog,
+  },
+  {
+    path: "/contact",
+    component: Contact,
   },
 ];
