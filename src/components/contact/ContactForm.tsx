@@ -16,6 +16,12 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     styleText: {
       maxWidth: "1140px",
+      "& h3": {
+          paddingLeft: "100px",
+          [theme.breakpoints.down("sm")]:{
+              paddingLeft: "0px"
+          }
+      }
     },
   })
 );
