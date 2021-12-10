@@ -1,10 +1,18 @@
-
+import {
+  OurService,
+  BeautyService,
+  SloganService,
+  FAQService,
+} from "../components/index";
 const Service = () => {
-    return (
-        <div>
+  return (
+    <>
+      <OurService />
+      <BeautyService />
+      <SloganService />
+      <FAQService />
+    </>
+  );
+};
 
-        </div>
-    )
-}
-
-export default Service
+export default Service;

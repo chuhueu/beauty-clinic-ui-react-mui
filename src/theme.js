@@ -9,7 +9,7 @@ export const theme = createTheme({
       fontSize: "36px",
       lineHeight: "125%",
       color: "#091156",
-      letterSpacing: "0.1em",
+      letterSpacing: "0em"
     },
     h2: {
       fontFamily: "Poppins",

@@ -19,6 +19,11 @@ export { default as SectionAbout } from "./about/SectionAbout";
 export { default as SectionSlogan } from "./about/SectionSlogan";
 export { default as SectionVision } from "./about/SectionVision";
 export { default as SectionClients } from "./about/SectionClients";
+//Service
+export { default as OurService } from "./service/OurServices";
+export { default as BeautyService } from "./service/BeautyServices";
+export { default as SloganService } from "./service/SloganServices";
+export { default as FAQService } from "./service/FAQServices";
 //Gallery
 export { default as OurGallery } from "./gallery/OurGallery";
 export { default as VideoTour } from "./gallery/VideoTour";
