@@ -41,7 +41,7 @@ const CoreServices = () => {
         <Typography variant="h3">Lorem ipsum dolor sit amet.</Typography>
       </Box>
       <Box mt={8}>
-        <Grid container justify="center" alignItems="center" spacing={2}>
+        <Grid container justifyContent="center" alignItems="center" spacing={2}>
           <Grid item xs={12} sm={6} md={4}>
             <Container>
               <Box
