@@ -14,8 +14,8 @@ const SectionArticle = () => {
                 <Grid container spacing={10}>
                     <Grid item lg={8} md={8} sm={12} xs={12}>
                         <div className="sectionarticle-left">
-                            <Grid container>
-                                <Grid item lg={12}>
+                            <Grid container spacing={10}>
+                                <Grid item lg={12} md={12} sm={12} xs={12}>
                                     <div className="article-item">
                                         <img
                                             src={Article1}
@@ -56,7 +56,7 @@ const SectionArticle = () => {
                                         </button>
                                     </div>
                                 </Grid>
-                                <Grid item lg={12}>
+                                <Grid item lg={12} md={12} sm={12} xs={12}>
                                     <div className="article-item">
                                         <img
                                             src={Article2}
@@ -97,7 +97,7 @@ const SectionArticle = () => {
                                         </button>
                                     </div>
                                 </Grid>
-                                <Grid item lg={12}>
+                                <Grid item lg={12} md={12} sm={12} xs={12}>
                                     <div className="article-item">
                                         <img
                                             src={Article3}

@@ -27,7 +27,10 @@ const Header = () => {
                     >
                         <div className="menu">
                             <ul className="menu-list">
-                                <li className="menu-item">
+                                <li
+                                    className="menu-item"
+                                    onClick={handleToggleMenu}
+                                >
                                     <CustomLink
                                         to="/home2"
                                         label="Home"
@@ -60,7 +63,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </div>
-                        <Link to="/contact">
+                        <Link to="/contact" onClick={handleToggleMenu}>
                             <div className="button button--primary button--rounded">
                                 Contact
                             </div>
