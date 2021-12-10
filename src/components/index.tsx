@@ -23,5 +23,6 @@ export { default as SectionClients } from "./about/SectionClients";
 export { default as OurGallery } from "./gallery/OurGallery";
 export { default as VideoTour } from "./gallery/VideoTour";
 export { default as Getquota } from "./gallery/GetQuota";
-
-
+//Blog
+export { default as SectionTitle } from "./blog/SectionTitle";
+export { default as SectionArticle } from "./blog/SectionArticle";

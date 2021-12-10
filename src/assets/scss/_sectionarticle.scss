@@ -1,0 +1,82 @@
+.sectionarticle {
+    margin: 100px 0;
+    &-left {
+        .article-item {
+            border-radius: 50px;
+            box-shadow: 10px 13px 80px 14px #f2f4ff;
+            padding-bottom: 80px;
+            &-text {
+                margin: 56px 42px 20px 76px;
+                .heading {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 18px;
+                    .icon {
+                        margin-right: 15px;
+                    }
+                    p {
+                        font-size: 1.6rem;
+                        line-height: 2rem;
+                        font-weight: 600;
+                        color: $primary-color;
+                    }
+                }
+                .title {
+                    font-size: 3.6rem;
+                    line-height: 4.5rem;
+                    font-weight: 600;
+                    color: $heading-color;
+                    margin-bottom: 12px;
+                }
+                .desc {
+                    font-size: 1.6rem;
+                    line-height: 2.4rem;
+                    font-weight: 400;
+                    padding-right: 20px;
+                }
+            }
+            .button {
+                margin-left: 76px;
+                display: flex;
+                align-items: center;
+                .icon {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    &-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-item {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 5px;
+            cursor: pointer;
+            p {
+                font-size: 1.6rem;
+                line-height: 2rem;
+                font-weight: 600;
+                color: $text-white;
+            }
+            &.active,
+            &:hover {
+                background-color: $heading-color;
+                transition: 0.3s ease-in-out;
+                p {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
