@@ -10,7 +10,6 @@ const useStyles = makeStyles((theme: Theme) =>
       backgroundPosition: "center",
       backgroundSize: "cover",
       zIndex: -2,
-      position: "relative",
       minHeight: "918px",
       marginTop: "-100px"
     },
@@ -65,7 +64,7 @@ const useStyles = makeStyles((theme: Theme) =>
         fontWeight: "normal",
         fontSize: "16px",
         color: "#FFFFFF",
-        margin: "auto 50px",
+        margin: "auto 20px",
       },
     },
     circle: {
