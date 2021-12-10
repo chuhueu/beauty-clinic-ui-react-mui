@@ -42,9 +42,11 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <div className="button button--primary button--rounded">
-              Contact
-            </div>
+            <Link to="/contact">
+              <div className="button button--primary button--rounded">
+                Contact
+              </div>
+            </Link>
           </div>
           <div
             className={`header-toggle ${toggleMenu ? "is-active" : ""}`}

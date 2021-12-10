@@ -28,5 +28,9 @@ export { default as FAQService } from "./service/FAQServices";
 export { default as OurGallery } from "./gallery/OurGallery";
 export { default as VideoTour } from "./gallery/VideoTour";
 export { default as Getquota } from "./gallery/GetQuota";
+//Blog
 
+//Contact
+export { default as ContactForm } from "./contact/ContactForm";
+export { default as ContactInfo } from "./contact/ContactInfo";
 

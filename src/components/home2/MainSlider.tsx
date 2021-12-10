@@ -65,7 +65,7 @@ const useStyles = makeStyles((theme: Theme) =>
         fontWeight: "normal",
         fontSize: "16px",
         color: "#FFFFFF",
-        margin: "auto 50px",
+        margin: "auto 20px",
       },
     },
     circle: {
