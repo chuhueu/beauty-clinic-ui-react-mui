@@ -79,38 +79,45 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 const MainSlider = () => {
-  const classes = useStyles();
-  return (
-    <Box className={classes.styleMain}>
-      <Container className={classes.styleContainer}>
-        <Grid container spacing={7} className={classes.styleGrid}>
-          <Grid item md={6}>
-            <Typography className={classes.styleTitle}>
-              Your beauty center place
-            </Typography>
-            <Typography className={classes.styleText}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo,
-              massa pellentesque arcu fusce et magna consequat neque vitae
-              lobortis.
-            </Typography>
-            <Button variant="outlined" className={classes.moreButton}>
-              More Details
-            </Button>
-          </Grid>
-          <Grid item md={6}>
-            <Box display="flex" className={classes.styleGridRight}>
-              <Button>
-                <Box component="span" display="flex" className={classes.circle}>
-                  <img src={playButton} alt="" />
-                </Box>
-              </Button>
-              <Typography>Tour Video</Typography>
-            </Box>
-          </Grid>
-        </Grid>
-      </Container>
-    </Box>
-  );
+    const classes = useStyles();
+    return (
+        <Box className={classes.styleMain}>
+            <Container className={classes.styleContainer}>
+                <Grid container spacing={7} className={classes.styleGrid}>
+                    <Grid item md={6}>
+                        <Typography className={classes.styleTitle}>
+                            Your beauty center place
+                        </Typography>
+                        <Typography className={classes.styleText}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Commodo, massa pellentesque arcu fusce et
+                            magna consequat neque vitae lobortis.
+                        </Typography>
+                        <Button
+                            variant="outlined"
+                            className={classes.moreButton}
+                        >
+                            More Details
+                        </Button>
+                    </Grid>
+                    <Grid item md={6}>
+                        <Box display="flex" className={classes.styleGridRight}>
+                            <Button>
+                                <Box
+                                    component="span"
+                                    display="flex"
+                                    className={classes.circle}
+                                >
+                                    <img src={playButton} alt="" />
+                                </Box>
+                            </Button>
+                            <Typography>Tour Video</Typography>
+                        </Box>
+                    </Grid>
+                </Grid>
+            </Container>
+        </Box>
+    );
 };
 
 export default MainSlider;

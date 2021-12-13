@@ -8,6 +8,10 @@ import icon3 from "../../assets/images/icons/icon-h3.png";
 import waveLine from "../../assets/images/background/waveLine.png";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
+    styleContainer: {
+      maxWidth: "1160px",
+      position: "relative"
+    },
     styleService1: {
       borderRadius: "25px",
       boxSizing: "border-box",
@@ -31,7 +35,7 @@ const useStyles = makeStyles((theme: Theme) =>
 const CoreServices = () => {
   const classes = useStyles();
   return (
-    <Container fixed style={{maxWidth: "1160px"}}>
+    <Container fixed className={classes.styleContainer}>
         <img src={waveLine} alt="" className={classes.styleWave}/>
       <Box textAlign="center" mt={20}>
         <Typography variant="h2">Main Services</Typography>

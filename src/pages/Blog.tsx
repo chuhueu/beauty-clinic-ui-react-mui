@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import { SectionArticle, SectionTitle } from "../components";
 
 const Blog = () => {
     return (
-        <div>
+        <>
+            <SectionTitle />
+            <SectionArticle />
+        </>
+    );
+};
 
-        </div>
-    )
-}
-
-export default Blog
+export default Blog;
