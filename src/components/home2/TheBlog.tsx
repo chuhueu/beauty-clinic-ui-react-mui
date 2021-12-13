@@ -12,18 +12,6 @@ const useStyles = makeStyles((theme: Theme) =>
             //height: "543px",
             borderRadius: "25px",
             boxShadow: "0px 25px 50px 5px #F6F7FF",
-            "&:hover": {
-                transform: "scale(1.1)",
-                transition: "all 0.3s linear",
-            },
-            "&.left:hover": {
-                transform: "scale(1.1) translateX(10%)",
-                transition: "all 0.3s linear",
-            },
-            "&.right:hover": {
-                transform: "scale(1.1) translateX(-10%)",
-                transition: "all 0.3s linear",
-            },
         },
         styleText: {
             padding: "56px 38px",
@@ -50,10 +38,7 @@ const TheBlog = () => {
                 <Grid container justifyContent="center" spacing={1}>
                     <Grid item xs={12} sm={6} md={4}>
                         <Container>
-                            <Paper
-                                elevation={3}
-                                className={`${classes.styleNews} left`}
-                            >
+                            <Paper elevation={3} className={classes.styleNews}>
                                 <img src={news1} alt="" />
                                 <Box className={classes.styleText}>
                                     <Typography variant="h4">
@@ -109,10 +94,7 @@ const TheBlog = () => {
                     </Grid>
                     <Grid item xs={12} sm={6} md={4}>
                         <Container>
-                            <Paper
-                                elevation={3}
-                                className={`${classes.styleNews} right`}
-                            >
+                            <Paper elevation={3} className={classes.styleNews}>
                                 <img src={news3} alt="" />
                                 <Box className={classes.styleText}>
                                     <Typography variant="h4">

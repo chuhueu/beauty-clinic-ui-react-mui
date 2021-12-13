@@ -16,18 +16,6 @@ const useStyles = makeStyles((theme: Theme) =>
             "& > *": {
                 padding: theme.spacing(1),
             },
-            "&:hover": {
-                transform: "scale(1.1)",
-                transition: "all 0.3s linear",
-            },
-            "&.left:hover": {
-                transform: "scale(1.1) translateX(10%)",
-                transition: "all 0.3s linear",
-            },
-            "&.right:hover": {
-                transform: "scale(1.1) translateX(-10%)",
-                transition: "all 0.3s linear",
-            },
         },
         styleWave: {
             position: "absolute",
@@ -66,7 +54,7 @@ const CoreServices = () => {
                             <Box
                                 border="1px solid #E2E2E2"
                                 boxSizing="border-box"
-                                className={`${classes.styleService1} left`}
+                                className={classes.styleService1}
                             >
                                 <img src={icon1} alt="" />
                                 <Typography variant="h4">
@@ -122,7 +110,7 @@ const CoreServices = () => {
                             <Box
                                 border="1px solid #E2E2E2"
                                 boxSizing="border-box"
-                                className={`${classes.styleService1} right`}
+                                className={classes.styleService1}
                             >
                                 <img src={icon3} alt="" />
                                 <Typography variant="h4">
