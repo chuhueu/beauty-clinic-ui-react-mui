@@ -15,7 +15,10 @@ const useStyles = makeStyles((theme: Theme) =>
       position: "absolute",
       left: "-15%",
       bottom: "-100%",
-      zIndex: -10
+      zIndex: -10,
+      [theme.breakpoints.down("sm")]: {
+        display: "none"
+      }
     },
     styleField: {
         "& label":{

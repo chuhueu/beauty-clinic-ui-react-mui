@@ -1,13 +1,14 @@
 import { Home1, Home2, About, Blog, Gallery, Service, Contact } from "../pages/index";
+export const random = (myComponent: any) => {
+  return myComponent[Math.floor(Math.random() * myComponent.length)];
+};
+let randomCompo = [<Home1 />, <Home2 />];
+//console.log(random(randomCompo).type.name);
 export const routes = [
   {
     path: "/",
     exact: true,
-    component: Home1,
-  },
-  {
-    path: "/home2",
-    component: Home2,
+    component: random(randomCompo).type,
   },
   {
     path: "/about",
