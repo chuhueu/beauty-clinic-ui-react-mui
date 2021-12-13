@@ -1,12 +1,16 @@
 import React from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import { Box, Button, Grid, Typography, Container } from "@material-ui/core";
-import Map from "../../assets/images/contactus/map.png";
+import { Box, Grid, Typography, Container } from "@material-ui/core";
 import Image1 from "../../assets/images/contactus/contact-img-1.png";
 import BgBubble from "../../assets/images/background/bg-bubble.png";
-
+//import Map from "./Map";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
+    styleIframe:{
+      width: "100%",
+      height: "500px",
+      border: "0"
+    },
     styleImg: {
       position: "absolute",
       top: "-10%",
@@ -101,10 +105,11 @@ const ContactForm = () => {
         </Grid>
       </div>
       <Box mt={18}>
-        <img src={Map} alt="" />
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0485231276557!2d105.78393701476328!3d21.03074438599728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4c767ff79d%3A0xd075094a50afef83!2zOCBQaOG7kSBEdXkgVMOibiwgROG7i2NoIFbhu41uZyBI4bqtdSwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1639381918172!5m2!1svi!2s" className={classes.styleIframe}></iframe>
       </Box>
     </Box>
   );
 };
 
 export default ContactForm;
+
