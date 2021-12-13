@@ -23,7 +23,7 @@ const Teams = () => {
                 <div className="teams-bottom">
                     <Grid container spacing={3}>
                         <Grid item lg={4} sm={12}>
-                            <div className="teams-item">
+                            <div className="teams-item left">
                                 <img
                                     src={Person1}
                                     alt=""
@@ -105,7 +105,7 @@ const Teams = () => {
                             </div>
                         </Grid>
                         <Grid item lg={4} sm={12}>
-                            <div className="teams-item">
+                            <div className="teams-item right">
                                 <img
                                     src={Person3}
                                     alt=""
