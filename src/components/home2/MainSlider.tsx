@@ -10,7 +10,6 @@ const useStyles = makeStyles((theme: Theme) =>
       backgroundPosition: "center",
       backgroundSize: "cover",
       zIndex: -2,
-      position: "relative",
       minHeight: "918px",
       marginTop: "-100px"
     },
