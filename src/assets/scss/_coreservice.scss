@@ -40,6 +40,19 @@
             align-items: center;
             justify-content: space-between;
             text-align: center;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1);
+                transition: all 0.3s linear;
+            }
+            &.left:hover {
+                transform: scale(1.1) translateX(10%);
+                transition: all 0.3s linear;
+            }
+            &.right:hover {
+                transform: scale(1.1) translateX(-10%);
+                transition: all 0.3s linear;
+            }
             &-img {
                 padding: 10px;
             }

@@ -15,7 +15,9 @@ const MainSlider = () => {
             <img className="slidermain--bg-img" src={BgImg} alt="" />
             <div className="container">
                 <div className="slidermain-slider">
-                    <Swiper pagination={{ dynamicBullets: true }}>
+                    <Swiper
+                        pagination={{ dynamicBullets: true, clickable: true }}
+                    >
                         <SwiperSlide>
                             <Grid container>
                                 <Grid

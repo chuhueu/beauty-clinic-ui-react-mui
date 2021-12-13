@@ -22,7 +22,7 @@ const CoreServices = () => {
                 <div className="servicesmain-bottom">
                     <Grid container spacing={7}>
                         <Grid item lg={4} sm={12}>
-                            <div className="service-item">
+                            <div className="service-item left">
                                 <img
                                     src={Image1}
                                     alt=""
@@ -54,7 +54,7 @@ const CoreServices = () => {
                             </div>
                         </Grid>
                         <Grid item lg={4} sm={12}>
-                            <div className="service-item">
+                            <div className="service-item right">
                                 <img
                                     src={Image3}
                                     alt=""
