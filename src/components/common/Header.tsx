@@ -17,7 +17,12 @@ const Header = () => {
       <div className="container">
         <div className="header-container">
           <div className="header-left">
-            <img src={LogoMain} alt="Logo" className="header-logo" onClick={reloadHome}/>
+            <img
+              src={LogoMain}
+              alt="Logo"
+              className="header-logo"
+              onClick={reloadHome}
+            />
           </div>
           <div className={`header-right ${toggleMenu ? "active" : ""}`}>
             <div className="menu">
