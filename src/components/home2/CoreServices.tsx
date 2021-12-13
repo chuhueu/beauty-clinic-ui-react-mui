@@ -16,9 +16,6 @@ const useStyles = makeStyles((theme: Theme) =>
             "& > *": {
                 padding: theme.spacing(1),
             },
-            "&.active": {
-                border: "1px solid #9BA2E0",
-            },
             "&:hover": {
                 transform: "scale(1.1)",
                 transition: "all 0.3s linear",
@@ -95,8 +92,9 @@ const CoreServices = () => {
                     <Grid item xs={12} sm={6} md={4}>
                         <Container>
                             <Box
+                                border="1px solid #9BA2E0"
                                 boxSizing="border-box"
-                                className={`${classes.styleService1} active`}
+                                className={classes.styleService1}
                             >
                                 <img src={icon2} alt="" />
                                 <Typography variant="h4">
